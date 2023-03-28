@@ -1,0 +1,16 @@
+PODS:
+  - DragDropiOS (0.3.0)
+
+DEPENDENCIES:
+  - DragDropiOS
+
+SPEC REPOS:
+  trunk:
+    - DragDropiOS
+
+SPEC CHECKSUMS:
+  DragDropiOS: b7334e5c3dff2fe6e6ceb11d24e16eae14922e1a
+
+PODFILE CHECKSUM: 40765bad7187a977f9641d8527eb56a1e9df0711
+
+COCOAPODS: 1.11.3

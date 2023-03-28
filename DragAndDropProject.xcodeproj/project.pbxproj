@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10A07E0F16B831759A30FFCE /* Pods_DragAndDropProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4960B3ABD2AF05A0702484 /* Pods_DragAndDropProject.framework */; };
+		45708100860AFB26533FBD9E /* Pods_DragAndDropProject_DragAndDropProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2842490568A1426F0464B77D /* Pods_DragAndDropProject_DragAndDropProjectUITests.framework */; };
+		4E3BF26739260A7F20F57AF0 /* Pods_DragAndDropProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F557504B9300C0FD55AA26EC /* Pods_DragAndDropProjectTests.framework */; };
+		AA41D83329D1E3DF007F1B65 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA41D83229D1E3DF007F1B65 /* ItemViewController.swift */; };
+		AA41D83529D1E3E8007F1B65 /* StrategyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA41D83429D1E3E8007F1B65 /* StrategyViewController.swift */; };
+		AA41D83829D1E4C1007F1B65 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA41D83729D1E4C1007F1B65 /* ItemCell.swift */; };
+		AA41D83A29D1E4CD007F1B65 /* StrategyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA41D83929D1E4CD007F1B65 /* StrategyCell.swift */; };
+		AA41D83C29D1E851007F1B65 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA41D83B29D1E851007F1B65 /* ContainerViewController.swift */; };
+		AA41D83F29D1F68F007F1B65 /* MultipleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA41D83E29D1F68F007F1B65 /* MultipleCollectionViewController.swift */; };
+		AA4D50D329CDC8EA0029D69C /* DragDropTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D50D229CDC8EA0029D69C /* DragDropTableViewCell.swift */; };
+		AA4D50D529CDC9300029D69C /* ViewController ++ TableviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D50D429CDC9300029D69C /* ViewController ++ TableviewViewController.swift */; };
 		AAB9B08A29CC5DE200757746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B08929CC5DE200757746 /* AppDelegate.swift */; };
 		AAB9B08C29CC5DE200757746 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B08B29CC5DE200757746 /* SceneDelegate.swift */; };
 		AAB9B08E29CC5DE200757746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B08D29CC5DE200757746 /* ViewController.swift */; };
@@ -16,6 +27,8 @@
 		AAB9B0A129CC5DE500757746 /* DragAndDropProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B0A029CC5DE500757746 /* DragAndDropProjectTests.swift */; };
 		AAB9B0AB29CC5DE500757746 /* DragAndDropProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B0AA29CC5DE500757746 /* DragAndDropProjectUITests.swift */; };
 		AAB9B0AD29CC5DE500757746 /* DragAndDropProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B0AC29CC5DE500757746 /* DragAndDropProjectUITestsLaunchTests.swift */; };
+		AAB9B0BA29CC61BD00757746 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B0B929CC61BD00757746 /* Model.swift */; };
+		AAB9B0BC29CC625C00757746 /* DragDropCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB9B0BB29CC625C00757746 /* DragDropCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1620938EB14D1D1349FF3EE7 /* Pods-DragAndDropProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragAndDropProjectTests.release.xcconfig"; path = "Target Support Files/Pods-DragAndDropProjectTests/Pods-DragAndDropProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		2842490568A1426F0464B77D /* Pods_DragAndDropProject_DragAndDropProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DragAndDropProject_DragAndDropProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F7D0D8DDC045BB9620ABA1 /* Pods-DragAndDropProject-DragAndDropProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragAndDropProject-DragAndDropProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-DragAndDropProject-DragAndDropProjectUITests/Pods-DragAndDropProject-DragAndDropProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A4960B3ABD2AF05A0702484 /* Pods_DragAndDropProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DragAndDropProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		567E2AA671B5C409EE7C5D0A /* Pods-DragAndDropProject-DragAndDropProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragAndDropProject-DragAndDropProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-DragAndDropProject-DragAndDropProjectUITests/Pods-DragAndDropProject-DragAndDropProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		890C8578595E1E38EFFFF70A /* Pods-DragAndDropProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragAndDropProject.debug.xcconfig"; path = "Target Support Files/Pods-DragAndDropProject/Pods-DragAndDropProject.debug.xcconfig"; sourceTree = "<group>"; };
+		AA41D83229D1E3DF007F1B65 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		AA41D83429D1E3E8007F1B65 /* StrategyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyViewController.swift; sourceTree = "<group>"; };
+		AA41D83729D1E4C1007F1B65 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		AA41D83929D1E4CD007F1B65 /* StrategyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyCell.swift; sourceTree = "<group>"; };
+		AA41D83B29D1E851007F1B65 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		AA41D83E29D1F68F007F1B65 /* MultipleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleCollectionViewController.swift; sourceTree = "<group>"; };
+		AA4D50D229CDC8EA0029D69C /* DragDropTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragDropTableViewCell.swift; sourceTree = "<group>"; };
+		AA4D50D429CDC9300029D69C /* ViewController ++ TableviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController ++ TableviewViewController.swift"; sourceTree = "<group>"; };
 		AAB9B08629CC5DE200757746 /* DragAndDropProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragAndDropProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB9B08929CC5DE200757746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAB9B08B29CC5DE200757746 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +76,11 @@
 		AAB9B0A629CC5DE500757746 /* DragAndDropProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragAndDropProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB9B0AA29CC5DE500757746 /* DragAndDropProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropProjectUITests.swift; sourceTree = "<group>"; };
 		AAB9B0AC29CC5DE500757746 /* DragAndDropProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAB9B0B929CC61BD00757746 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AAB9B0BB29CC625C00757746 /* DragDropCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragDropCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD0312DE00E8F60EBD6C4F3D /* Pods-DragAndDropProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragAndDropProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-DragAndDropProjectTests/Pods-DragAndDropProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0DE613951AA128FF0AADBCF /* Pods-DragAndDropProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragAndDropProject.release.xcconfig"; path = "Target Support Files/Pods-DragAndDropProject/Pods-DragAndDropProject.release.xcconfig"; sourceTree = "<group>"; };
+		F557504B9300C0FD55AA26EC /* Pods_DragAndDropProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DragAndDropProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10A07E0F16B831759A30FFCE /* Pods_DragAndDropProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3BF26739260A7F20F57AF0 /* Pods_DragAndDropProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +104,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45708100860AFB26533FBD9E /* Pods_DragAndDropProject_DragAndDropProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		535EB5FDB70E1413BAD959D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A4960B3ABD2AF05A0702484 /* Pods_DragAndDropProject.framework */,
+				2842490568A1426F0464B77D /* Pods_DragAndDropProject_DragAndDropProjectUITests.framework */,
+				F557504B9300C0FD55AA26EC /* Pods_DragAndDropProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58D7FBE38337E0B269569707 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				890C8578595E1E38EFFFF70A /* Pods-DragAndDropProject.debug.xcconfig */,
+				E0DE613951AA128FF0AADBCF /* Pods-DragAndDropProject.release.xcconfig */,
+				31F7D0D8DDC045BB9620ABA1 /* Pods-DragAndDropProject-DragAndDropProjectUITests.debug.xcconfig */,
+				567E2AA671B5C409EE7C5D0A /* Pods-DragAndDropProject-DragAndDropProjectUITests.release.xcconfig */,
+				AD0312DE00E8F60EBD6C4F3D /* Pods-DragAndDropProjectTests.debug.xcconfig */,
+				1620938EB14D1D1349FF3EE7 /* Pods-DragAndDropProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA41D83129D1E3C1007F1B65 /* ContainerViewDragAndDrop */ = {
+			isa = PBXGroup;
+			children = (
+				AA41D83629D1E4A9007F1B65 /* TableViewCells */,
+				AA41D83229D1E3DF007F1B65 /* ItemViewController.swift */,
+				AA41D83429D1E3E8007F1B65 /* StrategyViewController.swift */,
+			);
+			path = ContainerViewDragAndDrop;
+			sourceTree = "<group>";
+		};
+		AA41D83629D1E4A9007F1B65 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				AA41D83729D1E4C1007F1B65 /* ItemCell.swift */,
+				AA41D83929D1E4CD007F1B65 /* StrategyCell.swift */,
+				AA41D83B29D1E851007F1B65 /* ContainerViewController.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		AA41D83D29D1F67C007F1B65 /* MultipleCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				AA41D83E29D1F68F007F1B65 /* MultipleCollectionViewController.swift */,
+			);
+			path = MultipleCollectionView;
+			sourceTree = "<group>";
+		};
 		AAB9B07D29CC5DE200757746 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +169,8 @@
 				AAB9B09F29CC5DE500757746 /* DragAndDropProjectTests */,
 				AAB9B0A929CC5DE500757746 /* DragAndDropProjectUITests */,
 				AAB9B08729CC5DE200757746 /* Products */,
+				58D7FBE38337E0B269569707 /* Pods */,
+				535EB5FDB70E1413BAD959D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +187,8 @@
 		AAB9B08829CC5DE200757746 /* DragAndDropProject */ = {
 			isa = PBXGroup;
 			children = (
+				AA41D83D29D1F67C007F1B65 /* MultipleCollectionView */,
+				AA41D83129D1E3C1007F1B65 /* ContainerViewDragAndDrop */,
 				AAB9B08929CC5DE200757746 /* AppDelegate.swift */,
 				AAB9B08B29CC5DE200757746 /* SceneDelegate.swift */,
 				AAB9B08D29CC5DE200757746 /* ViewController.swift */,
@@ -106,6 +196,10 @@
 				AAB9B09229CC5DE400757746 /* Assets.xcassets */,
 				AAB9B09429CC5DE400757746 /* LaunchScreen.storyboard */,
 				AAB9B09729CC5DE400757746 /* Info.plist */,
+				AAB9B0B929CC61BD00757746 /* Model.swift */,
+				AAB9B0BB29CC625C00757746 /* DragDropCollectionViewCell.swift */,
+				AA4D50D229CDC8EA0029D69C /* DragDropTableViewCell.swift */,
+				AA4D50D429CDC9300029D69C /* ViewController ++ TableviewViewController.swift */,
 			);
 			path = DragAndDropProject;
 			sourceTree = "<group>";
@@ -134,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAB9B0B029CC5DE500757746 /* Build configuration list for PBXNativeTarget "DragAndDropProject" */;
 			buildPhases = (
+				28958E7287DF62BC792BE417 /* [CP] Check Pods Manifest.lock */,
 				AAB9B08229CC5DE200757746 /* Sources */,
 				AAB9B08329CC5DE200757746 /* Frameworks */,
 				AAB9B08429CC5DE200757746 /* Resources */,
+				C0409A22AC5FD53FDF6FA0C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAB9B0B329CC5DE500757746 /* Build configuration list for PBXNativeTarget "DragAndDropProjectTests" */;
 			buildPhases = (
+				B78A0C6C508B834FF58709E9 /* [CP] Check Pods Manifest.lock */,
 				AAB9B09829CC5DE500757746 /* Sources */,
 				AAB9B09929CC5DE500757746 /* Frameworks */,
 				AAB9B09A29CC5DE500757746 /* Resources */,
+				3B398CCEDE3E2DC2E288CBD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAB9B0B629CC5DE500757746 /* Build configuration list for PBXNativeTarget "DragAndDropProjectUITests" */;
 			buildPhases = (
+				CF3A7B4EA46D7E1E49DA75BF /* [CP] Check Pods Manifest.lock */,
 				AAB9B0A229CC5DE500757746 /* Sources */,
 				AAB9B0A329CC5DE500757746 /* Frameworks */,
 				AAB9B0A429CC5DE500757746 /* Resources */,
+				EBE75BF512D16D839E5A7BB2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +353,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28958E7287DF62BC792BE417 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DragAndDropProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B398CCEDE3E2DC2E288CBD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DragAndDropProjectTests/Pods-DragAndDropProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DragAndDropProjectTests/Pods-DragAndDropProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DragAndDropProjectTests/Pods-DragAndDropProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B78A0C6C508B834FF58709E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DragAndDropProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0409A22AC5FD53FDF6FA0C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DragAndDropProject/Pods-DragAndDropProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DragAndDropProject/Pods-DragAndDropProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DragAndDropProject/Pods-DragAndDropProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF3A7B4EA46D7E1E49DA75BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DragAndDropProject-DragAndDropProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBE75BF512D16D839E5A7BB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DragAndDropProject-DragAndDropProjectUITests/Pods-DragAndDropProject-DragAndDropProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DragAndDropProject-DragAndDropProjectUITests/Pods-DragAndDropProject-DragAndDropProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DragAndDropProject-DragAndDropProjectUITests/Pods-DragAndDropProject-DragAndDropProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AAB9B08229CC5DE200757746 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AAB9B08E29CC5DE200757746 /* ViewController.swift in Sources */,
+				AA41D83529D1E3E8007F1B65 /* StrategyViewController.swift in Sources */,
+				AA41D83329D1E3DF007F1B65 /* ItemViewController.swift in Sources */,
 				AAB9B08A29CC5DE200757746 /* AppDelegate.swift in Sources */,
+				AA41D83829D1E4C1007F1B65 /* ItemCell.swift in Sources */,
+				AA41D83F29D1F68F007F1B65 /* MultipleCollectionViewController.swift in Sources */,
+				AA4D50D329CDC8EA0029D69C /* DragDropTableViewCell.swift in Sources */,
+				AA4D50D529CDC9300029D69C /* ViewController ++ TableviewViewController.swift in Sources */,
+				AAB9B0BC29CC625C00757746 /* DragDropCollectionViewCell.swift in Sources */,
 				AAB9B08C29CC5DE200757746 /* SceneDelegate.swift in Sources */,
+				AA41D83A29D1E4CD007F1B65 /* StrategyCell.swift in Sources */,
+				AA41D83C29D1E851007F1B65 /* ContainerViewController.swift in Sources */,
+				AAB9B0BA29CC61BD00757746 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +662,7 @@
 		};
 		AAB9B0B129CC5DE500757746 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890C8578595E1E38EFFFF70A /* Pods-DragAndDropProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +676,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +692,7 @@
 		};
 		AAB9B0B229CC5DE500757746 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0DE613951AA128FF0AADBCF /* Pods-DragAndDropProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +706,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +722,7 @@
 		};
 		AAB9B0B429CC5DE500757746 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD0312DE00E8F60EBD6C4F3D /* Pods-DragAndDropProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +743,7 @@
 		};
 		AAB9B0B529CC5DE500757746 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1620938EB14D1D1349FF3EE7 /* Pods-DragAndDropProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +764,7 @@
 		};
 		AAB9B0B729CC5DE500757746 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F7D0D8DDC045BB9620ABA1 /* Pods-DragAndDropProject-DragAndDropProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +783,7 @@
 		};
 		AAB9B0B829CC5DE500757746 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 567E2AA671B5C409EE7C5D0A /* Pods-DragAndDropProject-DragAndDropProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
